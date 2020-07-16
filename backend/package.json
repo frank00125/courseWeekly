@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "nodeJS practice",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/index.js",
+    "build": "babel src --out-dir dist --presets=@babel/preset-env --plugins @babel/plugin-transform-runtime",
+    "pretest": "npm run build",
+    "prestart": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "babel-plugin-graphql-tag": "^2.5.0"
+  },
+  "author": "Frank Su<jhihwei.su@gmail.com>",
+  "license": "MIT"
+}

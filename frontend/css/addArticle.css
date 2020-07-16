@@ -1,0 +1,8 @@
+header {
+  margin-top: 8vh;
+}
+
+#content {
+  height: 300;
+  resize: none;
+}
