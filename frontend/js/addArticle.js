@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function () {
   const cancelBtn = document.getElementById('cancelBtn');
 
   saveBtn.addEventListener('click', function () {
-    const title = document.getElementById('title');
-    const content = document.getElementById('content');
+    const title = document.getElementById('title').value;
+    const content = document.getElementById('content').value;
 
     const article = {
       title: title,
