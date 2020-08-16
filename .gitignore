@@ -72,3 +72,5 @@ dist/
 # vscode configuration
 .vscode/
 
+# .DS_Store
+.DS_Store
